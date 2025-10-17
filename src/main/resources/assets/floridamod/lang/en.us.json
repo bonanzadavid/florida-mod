@@ -1,3 +1,5 @@
 {
-  "item.floridamod.gator_scute": "Gator Scute"
+  "comment": "This is supposed to name your item, for some reason it doesn't work, guessing it's an incorrect directory.",
+  "item.floridamod.gator_scute": "Gator Scute",
+  "item.floridamod.gator_hide": "Gator Hide"
 }
