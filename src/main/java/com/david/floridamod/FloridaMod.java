@@ -1,6 +1,7 @@
 package com.david.floridamod;
 
-import com.david.floridamod.item.modItems;
+import com.david.floridamod.block.ModBlocks;
+import com.david.floridamod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -33,7 +34,8 @@ public class FloridaMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-        modItems.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
 
@@ -52,12 +54,13 @@ public class FloridaMod
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(modItems.GATORSCUTE);
-            event.accept(modItems.GATORHIDE);
-            event.accept(modItems.GATORBOOTS);
-            event.accept(modItems.GATORHELMET);
-            event.accept(modItems.GATORLEGGINGS);
-            event.accept(modItems.GATORCHESTPLATE);
+            event.accept(ModItems.GATORSCUTE);
+            event.accept(ModItems.GATORHIDE);
+            event.accept(ModItems.GATORBOOTS);
+            event.accept(ModItems.GATORHELMET);
+            event.accept(ModItems.GATORLEGGINGS);
+            event.accept(ModItems.GATORCHESTPLATE);
+            event.accept(ModBlocks.GATORHIDE_BLOCK);
         }
     }
 

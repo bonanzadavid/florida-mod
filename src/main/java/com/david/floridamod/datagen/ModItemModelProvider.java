@@ -1,7 +1,7 @@
 package com.david.floridamod.datagen;
 
 import com.david.floridamod.FloridaMod;
-import com.david.floridamod.item.*;
+import com.david.floridamod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
@@ -38,10 +38,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels(){
-        trimmedArmorItem(modItems.GATORBOOTS);
-        trimmedArmorItem(modItems.GATORHELMET);
-        trimmedArmorItem(modItems.GATORCHESTPLATE);
-        trimmedArmorItem(modItems.GATORLEGGINGS);
+        trimmedArmorItem(ModItems.GATORBOOTS);
+        trimmedArmorItem(ModItems.GATORHELMET);
+        trimmedArmorItem(ModItems.GATORCHESTPLATE);
+        trimmedArmorItem(ModItems.GATORLEGGINGS);
     }
 
 //Another person made this instead of the mod tutorial fella

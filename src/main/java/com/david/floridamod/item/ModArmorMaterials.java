@@ -3,7 +3,6 @@ package com.david.floridamod.item;
 import com.david.floridamod.FloridaMod;
 import net.minecraft.Util;
 import net.minecraft.core.Holder;
-import net.minecraft.core.HolderLookup;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -26,7 +25,7 @@ public class ModArmorMaterials {
             attribute.put(ArmorItem.Type.CHESTPLATE, 9);
             attribute.put(ArmorItem.Type.HELMET, 5);
             attribute.put(ArmorItem.Type.BODY, 11);
-        }), 15, 4f, 0.1f, () -> modItems.GATORHIDE.get());
+        }), 15, 4f, 0.1f, () -> ModItems.GATORHIDE.get());
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection, int enchantability, float toughness, float knockbackResistance, Supplier<Item> IngredientItem)
     {

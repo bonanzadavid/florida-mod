@@ -5,5 +5,7 @@
   "item.floridamod.gator_helmet": "Gator Helmet",
   "item.floridamod.gator_boots": "Gator Boots",
   "item.floridamod.gator_leggings": "Gator Leggings",
-  "item.floridamod.gator_chestplate": "Gator Chestplate"
+  "item.floridamod.gator_chestplate": "Gator Chestplate",
+
+  "block.floridamod.gatorhide_block": "Block of Gator Hide"
 }
