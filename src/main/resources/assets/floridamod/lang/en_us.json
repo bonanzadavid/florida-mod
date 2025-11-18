@@ -1,0 +1,10 @@
+{
+  "comment": "This is supposed to name your item, for some reason it doesn't work, guessing it's an incorrect directory.",
+  "item.floridamod.gator_boots": "Gator Boots",
+  "item.floridamod.gator_chestplate": "Gator Chestplate",
+  "item.floridamod.gator_helmet": "Gator Helmet",
+  "item.floridamod.gator_hide": "Gator Hide",
+  "item.floridamod.gator_leggings": "Gator Leggings",
+  "item.floridamod.gator_scute": "Gator Scute",
+  "item.floridamod.snake_skin": "Snake Skin"
+}
