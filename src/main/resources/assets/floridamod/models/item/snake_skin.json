@@ -1,0 +1,9 @@
+{
+  "comment": "This is a comment, keep 'parent' as is, for 'layer', this is your item texture, change it to the name of your png file inside floridamod/textures/item",
+
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "floridamod:item/snake_skin"
+  }
+
+}

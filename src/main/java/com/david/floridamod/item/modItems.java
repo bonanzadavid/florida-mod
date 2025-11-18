@@ -20,9 +20,10 @@ public class modItems {
                 () -> new Item(new Item.Properties()));
         public static final RegistryObject<Item> GATORHIDE = ITEMS.register("gator_hide",
                 () -> new Item(new Item.Properties()));
-                
+        public static final RegistryObject<Item> SNAKESKIN = ITEMS.register("snake_skin",
+                () -> new Item(new Item.Properties()));
 
-        public static final RegistryObject<Item> GATORHELMET = ITEMS.register("gator_helmet",
+    public static final RegistryObject<Item> GATORHELMET = ITEMS.register("gator_helmet",
                 () -> new ArmorItem(ModArmorMaterials.GATOR_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                         new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
         public static final RegistryObject<Item> GATORCHESTPLATE = ITEMS.register("gator_chestplate",

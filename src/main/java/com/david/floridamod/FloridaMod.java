@@ -58,6 +58,7 @@ public class FloridaMod
             event.accept(modItems.GATORHELMET);
             event.accept(modItems.GATORLEGGINGS);
             event.accept(modItems.GATORCHESTPLATE);
+            event.accept(modItems.SNAKESKIN);
         }
     }
 
