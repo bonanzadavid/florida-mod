@@ -22,7 +22,7 @@ import org.slf4j.Logger;
 public class FloridaMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "floridamod";
+    public static final String MOD_ID = "florida-mod";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 

@@ -34,7 +34,9 @@ public class modItems {
         public static final RegistryObject<Item> GATORBOOTS = ITEMS.register("gator_boots",
                 () -> new ArmorItem(ModArmorMaterials.GATOR_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                         new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(18))));
-
+    public static final RegistryObject<Item> SUNSCREEN = ITEMS.register("sunscreen",
+            () -> new SunscreenItem(new Item.Properties()
+                    .stacksTo(16)
 
 
 
